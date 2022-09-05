@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	color: #fff !important;
+	font-family: Jua;
+}
+
+body {
+	background-color: #131519;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("./img/bg.png")
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+    	background-position: center;
+    	background-repeat: no-repeat;
+}
+
+h1 {
+	text-align: center;
+	padding: 5px;
+	margin 0;
+}
+
+p {
+	text-align: center;
+	padding: 5px;
+	margin: 0;
+}
+
+.logo {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.socials {
+	padding: 10px;
+	margin: 10px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
