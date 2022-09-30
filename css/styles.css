@@ -8,19 +8,18 @@
 }
 
 body {
-	background-color: #131519;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("./img/bg.png")
-	height: 100vh;
-	width: 100%;
-	background-size: cover;
-    	background-position: center;
-    	background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url("../img/wallpaper.jpeg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 h1 {
 	text-align: center;
 	padding: 5px;
-	margin 0;
+	margin: 0;
 }
 
 p {
@@ -30,15 +29,25 @@ p {
 }
 
 .logo {
+    border-radius: 50px;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 }
 
+
 .socials {
-	padding: 10px;
-	margin: 10px;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+}
+
+i {
+    margin: 10px;
+}
+
+i:hover {
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.5s;
 }
